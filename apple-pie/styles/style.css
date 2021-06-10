@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -20,13 +20,13 @@ header {
 
 .main {
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .title {
   color: rgb(252, 252, 252);
   font-size: 100px;
-  font-family: 'poppins-thin';
+  font-family: "poppins-thin";
 }
 
 .firstSection {
@@ -42,11 +42,13 @@ header {
 }
 
 hr {
-  margin: 50px auto 0;
+  margin: 40px 0;
 }
 
 .secondSection {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
@@ -61,5 +63,15 @@ h3 {
 
 .ingredientsList li {
   font-size: 20px;
-  list-style: ;
+  list-style: none;
+}
+
+.secondSection img {
+  align-self: center;
+  margin-top: 40px;
+}
+
+#directionsList {
+  font-size: 20px;
+  margin-left: 50px;
 }
